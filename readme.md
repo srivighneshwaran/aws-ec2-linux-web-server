@@ -19,29 +19,17 @@ The web server is publicly accessible through the EC2 instance's public IP addre
 
 
 ```text
-
 User Browser
-
-&#x20;    |
-
-&#x20;    | HTTP : 80
-
-&#x20;    v
-
+     |
+     | HTTP : 80
+     v
 AWS EC2 Instance
-
-&#x20;    |
-
+     |
 Amazon Linux 2023
-
-&#x20;    |
-
+     |
 Apache HTTP Server
-
-&#x20;    |
-
+     |
 /var/www/html/index.html
-
 ```
 
 
